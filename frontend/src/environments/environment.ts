@@ -5,8 +5,8 @@
 
 export const environment = {
   production: false,
-  KEYCLOAK_URL: 'http://localhost:8080/auth',
-  KEYCLOAK_REALM: 'Demo-Realm',
+  KEYCLOAK_URL: 'https://identity--server.apps.dhccloud.com.cn/auth',
+  KEYCLOAK_REALM: 'Demo',
   KEYCLOAK_CLIENTID: 'tutorial-frontend',
   BACKEND_URL: 'http://localhost:8000/api'
 };
